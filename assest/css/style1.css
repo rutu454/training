@@ -1,0 +1,29 @@
+.bg-body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.card {
+    height: 400px;
+    width: 500px;
+    max-width: 100%;
+  
+  }
+  
+  .text-login {
+    font-weight: 300;
+    font-size: 18px;
+  }
+  
+  .card-body {
+    background-color: #86799b;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

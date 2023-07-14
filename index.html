@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="assest/css/style.css" />
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="card-body">
+        <h1>Login</h1>
+        <span class="margin-bottom text-login">Login with user Email and password</span>
+        <div class="form-input">
+          <input type="text" id="email"  placeholder="Email"  />
+        </div>
+        <div class="form-input margin-bottom">
+          <input type="password" id="pass" placeholder="Password" />
+        </div>
+        <button class="btn margin-bottom" onclick="myfunction('email','pass')">Login</button>
+      </div>
+    </div>
+<script>
+  function myfunction(email, pass){
+    var email = document.getElementById(email).value;
+    var pass =document.getElementById(pass).value;
+    alert("Email:"+email+ "Password:"+pass);
+  }
+</script>
+  
+  </body>
+</html>
